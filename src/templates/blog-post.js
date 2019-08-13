@@ -62,7 +62,7 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
-        <DiscussionEmbed shortname="snehaprabhamanapuram" config={{identifier: post.id, title: post.frontmatter.title}} />
+        <DiscussionEmbed shortname="snehaprabha" config={{identifier: post.id, title: post.frontmatter.title}} />
       </Layout>
     )
   }
